@@ -3,14 +3,15 @@
 //It should display an unordered list (bullet points).
 //It should contain 3 list elements.
 
-import react from "react"
-import react-dom from "react-dom"
+import React from "react"
+import ReactDOM from "react-dom"
 
-ReactDOM.render("
+ReactDOM.render(
 <div>
 <h1>This is the Head</h1>
 <p>This is a Body</p>
+{/* <ul>
 <ul>
-<ul>
-<ul>"), document.getElementByID
+<ul> */}
+    ), document.getElementByID("root")
 </div>
